@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="785" y="195">
+            <group eventID="1" id="-1">
+                <ignore-screen-tolerance2 comment="false" x="796" y="220">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                </ignore-screen-tolerance2>
+                <set-val-6-3 comment="false" x="796" y="247">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-val-6-3>
+                <set-val-6-4 comment="false" x="796" y="280">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-val-6-4>
+                <say-this comment="false" x="796" y="313">
+                    <int id="0" val="Rotate"/>
+                </say-this>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-custom comment="false" x="905" y="313">
+            <group eventID="2" id="-1">
+                <if comment="false" x="916" y="338">
+                    <group eventID="2" id="-1">
+                        <set-val-6-5 comment="false" x="927" y="363">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-6-5>
+                        <moveToBy comment="false" x="927" y="388">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-val-6-1 comment="false" id="2" x="0" y="0"/>
+                            <get-val-6-2 comment="false" id="3" x="0" y="0"/>
+                            <int id="4" val="5"/>
+                            <int id="5" val="0"/>
+                        </moveToBy>
+                    </group>
+                    <get-val-6-5 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <else comment="false" x="916" y="432">
+                    <group eventID="2" id="-1">
+                        <set-val-6-5 comment="false" x="927" y="452">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-6-5>
+                        <moveToBy comment="false" x="927" y="477">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-val-6-3 comment="false" id="2" x="0" y="0"/>
+                            <get-val-6-4 comment="false" id="3" x="0" y="0"/>
+                            <int id="4" val="5"/>
+                            <int id="5" val="0"/>
+                        </moveToBy>
+                    </group>
+                </else>
+            </group>
+            <int id="0" val="Rotate"/>
+        </event-custom>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="697" y="138">
+            <group eventID="3" id="-1">
+                <if comment="false" x="708" y="163">
+                    <group eventID="3" id="-1">
+                        <say-this comment="false" x="719" y="206">
+                            <int id="0" val="Rotate"/>
+                        </say-this>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                            <get-val-6-3 comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                            <get-val-6-4 comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                    </and>
+                </if>
+                <else-if comment="false" x="708" y="238">
+                    <group eventID="3" id="-1">
+                        <say-this comment="false" x="719" y="281">
+                            <int id="0" val="Rotate"/>
+                        </say-this>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                            <get-val-6-1 comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                            <get-val-6-2 comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                    </and>
+                </else-if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="8" extheight="544" extwidth="3264" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="100.0" height="480" id="1" name="Nivel 2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="3200">
+    <layers>
+        <grad-bg b1="0" b2="255" g1="255" g2="102" r1="0" r2="51"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="3" name="Stencyl Book Monkey 1" order="0" sx="1.0" sy="1.0" x="9" y="360" z="0"/>
+        <actor a="0.0" aid="2" c="true" group="4" id="9" name="Stencyl Book Statue 2" order="1" sx="1.0" sy="1.0" x="927" y="370" z="0">
+            <snippets>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="927"/>
+                    <prop id="2" list="0" val="355"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+                <s enabled="true" id="9"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="3" c="true" group="4" id="9" name="Stencyl Book Statue 3" order="2" sx="1.0" sy="1.0" x="1030" y="374" z="0">
+            <snippets>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="1030"/>
+                    <prop id="2" list="0" val="354"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+                <s enabled="true" id="9"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="4" c="true" group="4" id="9" name="Stencyl Book Statue 4" order="3" sx="1.0" sy="1.0" x="1133" y="374" z="0">
+            <snippets>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="1132"/>
+                    <prop id="2" list="0" val="354"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+                <s enabled="true" id="9"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="5" c="true" group="4" id="5" name="Stencyl Book Snake 5" order="4" sx="1.0" sy="1.0" x="928" y="259" z="0">
+            <snippets>
+                <s enabled="true" id="2"/>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="1122"/>
+                    <prop id="2" list="0" val="264"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="6" c="true" group="4" id="9" name="Stencyl Book Statue 6" order="5" sx="1.0" sy="1.0" x="125" y="365" z="0">
+            <snippets>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="125"/>
+                    <prop id="2" list="0" val="6"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+                <s enabled="true" id="9"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="7" c="true" group="4" id="9" name="Stencyl Book Statue 7" order="6" sx="1.0" sy="1.0" x="286" y="369" z="0">
+            <snippets>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="297"/>
+                    <prop id="2" list="0" val="7"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+                <s enabled="true" id="9"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="8" c="true" group="4" id="9" name="Stencyl Book Statue 8" order="7" sx="1.0" sy="1.0" x="446" y="367" z="0">
+            <snippets>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="453"/>
+                    <prop id="2" list="0" val="20"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+                <s enabled="true" id="9"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="9" c="true" group="4" id="9" name="Stencyl Book Statue 9" order="8" sx="1.0" sy="1.0" x="580" y="366" z="0">
+            <snippets>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="590"/>
+                    <prop id="2" list="0" val="10"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+                <s enabled="true" id="9"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="10" c="true" group="4" id="9" name="Stencyl Book Statue 10" order="9" sx="1.0" sy="1.0" x="1537" y="264" z="0">
+            <snippets>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="2287"/>
+                    <prop id="2" list="0" val="258"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+                <s enabled="true" id="9"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="11" c="true" group="4" id="5" name="Stencyl Book Snake 11" order="10" sx="1.0" sy="1.0" x="3004" y="391" z="0">
+            <snippets>
+                <s enabled="true" id="2"/>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="2433"/>
+                    <prop id="2" list="0" val="386"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="12" c="true" group="4" id="5" name="Stencyl Book Snake 12" order="11" sx="1.0" sy="1.0" x="2744" y="390" z="0">
+            <snippets>
+                <s enabled="true" id="2"/>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="2744"/>
+                    <prop id="2" list="0" val="390"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="13" c="true" group="4" id="5" name="Stencyl Book Snake 13" order="12" sx="1.0" sy="1.0" x="2430" y="386" z="0">
+            <snippets>
+                <s enabled="true" id="2"/>
+                <s enabled="true" id="6">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="3004"/>
+                    <prop id="2" list="0" val="387"/>
+                    <prop id="3" list="0" val="0"/>
+                    <prop id="4" list="0" val="0"/>
+                    <prop id="5" list="0" val="false"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="14" c="false" group="3" id="13" name="Stencyl Book Pineapple 14" order="13" sx="1.0" sy="1.0" x="3136" y="360" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="5">
+            <prop id="1" list="0" val=""/>
+            <prop id="2" list="0" val="1"/>
+        </s>
+        <s enabled="true" id="10">
+            <prop id="1" list="0" val="0"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="4,640.0,16.0,640.0,0.0,0.0,0.0,0.0,16.0" x="0.0" y="448.0"/>
+        <p pts="4,0.0,0.0,0.0,32.0,768.0,32.0,768.0,0.0" x="704.0" y="448.0"/>
+        <p pts="4,0.0,16.0,32.0,16.0,32.0,0.0,0.0,0.0" x="2048.0" y="448.0"/>
+        <p pts="4,0.0,0.0,0.0,16.0,768.0,16.0,768.0,0.0" x="2432.0" y="448.0"/>
+        <p pts="4,32.0,16.0,32.0,0.0,0.0,0.0,0.0,16.0" x="2240.0" y="448.0"/>
+        <p pts="4,0.0,0.0,0.0,16.0,256.0,16.0,256.0,0.0" x="928.0" y="320.0"/>
+        <p pts="4,0.0,0.0,0.0,16.0,32.0,16.0,32.0,0.0" x="1600.0" y="448.0"/>
+        <p pts="4,32.0,16.0,32.0,0.0,0.0,0.0,0.0,16.0" x="1792.0" y="448.0"/>
+        <p pts="4,32.0,16.0,32.0,0.0,0.0,0.0,0.0,16.0" x="1664.0" y="448.0"/>
+        <p pts="4,0.0,16.0,32.0,16.0,32.0,0.0,0.0,0.0" x="1920.0" y="448.0"/>
+        <p pts="4,32.0,0.0,0.0,0.0,0.0,16.0,32.0,16.0" x="1984.0" y="448.0"/>
+        <p pts="4,32.0,16.0,32.0,0.0,0.0,0.0,0.0,16.0" x="2176.0" y="448.0"/>
+        <p pts="4,32.0,16.0,32.0,0.0,0.0,0.0,0.0,16.0" x="1536.0" y="448.0"/>
+        <p pts="4,32.0,16.0,32.0,0.0,0.0,0.0,0.0,16.0" x="1856.0" y="448.0"/>
+        <p pts="4,32.0,16.0,32.0,0.0,0.0,0.0,0.0,16.0" x="2112.0" y="448.0"/>
+        <p pts="4,32.0,0.0,0.0,0.0,0.0,16.0,32.0,16.0" x="1728.0" y="448.0"/>
+        <p pts="4,32.0,16.0,32.0,0.0,0.0,0.0,0.0,16.0" x="2304.0" y="448.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

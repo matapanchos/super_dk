@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="457" y="105">
+            <group eventID="1" id="-1">
+                <create-actor3 comment="false" x="468" y="130">
+                    <actortype eid="7" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="2"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="2"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <set-val-5-1 comment="false" x="468" y="170">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-5-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="774" y="196">
+            <group eventID="2" id="-1">
+                <moveToBy comment="false" x="785" y="221">
+                    <ACTOR eid="var" id="0" vid="1"/>
+                    <int id="1" val="1"/>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="2"/>
+                        <int id="1" val="2"/>
+                    </get-xy>
+                    <get-xy comment="false" id="3" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="2"/>
+                        <int id="1" val="3"/>
+                    </get-xy>
+                    <int id="4" val="0.1"/>
+                    <int id="5" val="0"/>
+                </moveToBy>
+                <camera-follow comment="false" x="785" y="261">
+                    <ACTOR eid="var" id="0" vid="1"/>
+                </camera-follow>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

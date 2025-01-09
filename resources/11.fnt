@@ -1,0 +1,17 @@
+#
+#Sat Jul 22 13:32:16 COT 2023
+shadow.x=3
+shadow.y=3
+color=\#ff0000
+stroke.color=\#000000
+shadow.blur=4
+stroke.size=2
+shadow.color=\#000000
+alphabet=
+gradient.offset=28
+size=92
+gradient.color=\#ff0000
+antialias=true
+style=bold
+family=bad_bold_college_Regular.ttf
+chars=all

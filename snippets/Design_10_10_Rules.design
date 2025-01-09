@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-periodic comment="false" x="671" y="184">
+            <group eventID="1" id="-1">
+                <incdec comment="false" x="682" y="211">
+                    <int id="0" val="1"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="1"/>
+                </incdec>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="lastcreated" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <draw comment="false" x="867" y="173">
+            <group eventID="2" id="-1">
+                <set-font-new comment="false" x="878" y="198">
+                    <font eid="11" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="878" y="225">
+                    <get-val-10-1 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="3"/>
+                    <int id="2" val="3"/>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <init comment="false" x="979" y="227">
+            <group eventID="3" id="-1">
+                <set-val-10-1 comment="false" x="990" y="252">
+                    <int id="0" val="30"/>
+                </set-val-10-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <step comment="false" x="821" y="153">
+            <group eventID="4" id="-1">
+                <if comment="false" x="832" y="178">
+                    <group eventID="4" id="-1">
+                        <scene-reload-through comment="false" x="843" y="208">
+                            <int id="0" val="0"/>
+                            <int id="1" val="1"/>
+                        </scene-reload-through>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-10-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-collide-typetotype comment="false" x="349" y="87">
+            <group eventID="5" id="-1">
+                <scene-change-through comment="false" x="360" y="119">
+                    <scene eid="2" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="1"/>
+                </scene-change-through>
+            </group>
+            <actortype eid="3" id="0"/>
+            <actortype eid="13" id="1"/>
+        </event-collide-typetotype>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>
