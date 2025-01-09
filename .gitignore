@@ -4,3 +4,6 @@
 # Generated files. These should always be ignored.
 .cache/**
 **/*.bak
+
+#Generated files from ghostwriter (MD editor)
+*.backup
