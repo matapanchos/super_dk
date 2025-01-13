@@ -8,6 +8,6 @@ Controls:
 
 **Development is paused for now.**
 
-Itch.io page: [https://matapanchos.itch.io/superdk​](https://matapanchos.itch.io/superdk​)
+Itch.io page: [https://matapanchos.itch.io/superdk](https://matapanchos.itch.io/superdk)
 
-​Source code: [https://github.com/matapanchos/super_dk​](https://github.com/matapanchos/super_dk​)
+​Source code: [https://github.com/matapanchos/super_dk](https://github.com/matapanchos/super_dk)
